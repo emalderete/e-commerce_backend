@@ -1,0 +1,23 @@
+{
+  "name": "e-commerce_backend",
+  "version": "1.0.0",
+  "description": "Este será el backend del proyecto de e-commerce. Este administrará a las consultas de las bases de datos de usuarios y productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emalderete/e-commerce_backend.git"
+  },
+  "keywords": [
+    "users",
+    "products"
+  ],
+  "author": "Emanuel Alderete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emalderete/e-commerce_backend/issues"
+  },
+  "homepage": "https://github.com/emalderete/e-commerce_backend#readme"
+}
