@@ -9,4 +9,7 @@ const app = express();
 // de un puerto nuevo.
 app.set('port', process.env.PORT || 4000);
 
-console.log('desde el backend');
+// Mediante el uso de la función listen(valor_a_escuchar, () => {Lo que hará cuando ocurra lo escuchado})
+// vamos a escuchar el puerto definido anteriormente con la palabra 'port', a su vez nos valdremos de la función
+// get(valor_a_obtener) para consultar el puerto en cuestión.
+app.listen(app.get('port'), () => {console.log('Estoy en el puerto ' + app.get('port'))});
